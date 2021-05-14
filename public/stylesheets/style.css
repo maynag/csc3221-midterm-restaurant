@@ -1,8 +1,64 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding-top: 50px;  /* padding for fix navbar */
 }
 
-a {
-  color: #00B7FF;
+.carousel-inner {
+    max-height: 800px;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.message {
+    font-size: larger;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.fit{
+    width: 100%;
+}
+
+label {
+    width: 100px;
+    padding-top: 15px;
+}
+
+button{
+    padding: 10px;
+}
+
+#send-btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h2{
+    padding-top: 50px;
+}
+
+h3{
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.description{
+    margin:0px;
+    padding:0px;
+}
+
+.text-center{
+    text-align: center;
 }

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Reactive page setup-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+
+    <title>Menu</title>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Fennec Fox Cafe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Locations
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="location-switzerland.html">Swiss Alps</a></li>
+                        <li><a class="dropdown-item" href="location-canada.html">Whistler Blackcomb</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Menu Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>
+        Menu
+    </h1>
+    <hr>
+
+    <div class="row">
+        <h2>Coffee</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Affogato</h3>
+            <span class="description">Espresso poured on ice cream.</span>
+            <span class="price">$7.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Americano</h3>
+            <span class="description">Espresso made with hot water.</span>
+            <span class="price">$4.00</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Caffe Latte</h3>
+            <span class="description">Espresso made with milk.</span>
+            <span class="price">$5.00</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Caffe Mocha</h3>
+            <span class="description">Espresso made with milk and chocolate.</span>
+            <span class="price">$5.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Cappuccino</h3>
+            <span class="description">Espresso make with milk and foam</span>
+            <span class="price">$5.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Black - Verona</h3>
+            <span class="description">Coffee...</span>
+            <span class="price">$2.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Black - Sumatra</h3>
+            <span class="description">Coffee...</span>
+            <span class="price">$2.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Black - Breakfast Blend</h3>
+            <span class="description">Coffee...</span>
+            <span class="price">$2.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Black - House Blend</h3>
+            <span class="description">Coffee...</span>
+            <span class="price">$2.50</span>
+        </div>
+
+        <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+            <h3 class="name">Black - House Blend</h3>
+            <span class="description">Coffee...</span>
+            <span class="price">$2.50</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Breakfast</h2>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">Big Sandwich</h3>
+        <span class="description">Ham, Egg, Cheese, Bacon, Tomato</span>
+        <span class="price">$8.50</span>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">small Sandwich</h3>
+        <span class="description">Ham, Egg</span>
+        <span class="price">$3.50</span>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">Pankakes</h3>
+        <span class="description">Blueberries and wallnutes.</span>
+        <span class="price">$3.50</span>
+    </div>
+
+    <div class="row">
+        <h2>Dessert</h2>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">Crepes</h3>
+        <span class="description">Strawberry, Whip Cream, and Chocolate</span>
+        <span class="price">$6.50</span>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">Ice Cream</h3>
+        <span class="description">Vanilla</span>
+        <span class="price">$3.50</span>
+    </div>
+
+    <div class="offset-md-1 col-md-4 offset-lg-1 col-lg-3">
+        <h3 class="name">Brownies</h3>
+        <span class="description">Made with dark chocolate</span>
+        <span class="price">$4.00</span>
+    </div>
+
+</div>
+
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">&copy; 2021 - Fennic Fox Inc.</span>
+    </div>
+</footer>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
